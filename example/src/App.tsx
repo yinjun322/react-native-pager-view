@@ -11,6 +11,7 @@ import { ScrollViewInsideExample } from './ScrollViewInsideExample';
 import HeadphonesCarouselExample from './HeadphonesCarouselExample';
 import PaginationDotsExample from './PaginationDotsExample';
 import { NestPagerView } from './NestPagerView';
+import MaterialTopTabsExample from './MaterialTopTabsExample';
 
 const examples = [
   { component: BasicPagerViewExample, name: 'Basic Example' },
@@ -31,9 +32,11 @@ const examples = [
     component: NestPagerView,
     name: 'Nest PagerView Example',
   },
+  {
+    component: MaterialTopTabsExample,
+    name: 'Material Top Tabs Example',
+  },
 ];
-
-// const examples = [{ component: BasicPagerViewExample, name: 'Basic Example' }];
 
 function App() {
   const navigation = useNavigation();
